@@ -30,7 +30,7 @@ http://localhost:8082/swagger-ui.html
 #
 # HOW TO ACCESS THE API
 1 Signup
- <img src="Signup.png" alt="Signup Screenshot" width="300"/>
+ <img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Signup.png?raw=true" alt="Signup Screenshot" width="300"/>
 
 
 
