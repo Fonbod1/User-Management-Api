@@ -1,5 +1,5 @@
 # User-Management-Api
-## This is a Spring Boot Rest API for user registration, authentication, and user account management.
+## This is a Spring Boot Rest API for user registration, authentication, and account management.
 It supports JWT-based authentication, user creation, viewing, updating, and deletion.
 #
 # Features
@@ -36,4 +36,4 @@ http://localhost:8082/swagger-ui.html
 | POST          |  /signup      |  Register a new user                                  |
 | POST          |  /signin      |  Authenticate and get JWT                             |
 | POST          |  /refresh     |  Refresh access token using refresh token             |
- ________________________________________________________________________________________
+|_______________|_______________|_______________________________________________________|
