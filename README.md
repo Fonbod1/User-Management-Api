@@ -45,7 +45,7 @@ http://localhost:8082/swagger-ui.html
 #
 4. AUTHENTICATION: At your user endpoint in Postman, select the authentication submenu, paste the token you copied from the sign-in, and click Get. This will authenticate you as a user or admin. From here, you can use the different user or admin endpoints within the API.
 #
- <imag scr ="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Authenticate%20User.png?raw=true" alt = "Authentication" width = "1000">
+ <img scr ="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Authenticate%20User.png?raw=true" alt = "Authentication" width = "1000">
  #
 
 # Authentication Endpoints
