@@ -27,6 +27,15 @@ It supports JWT-based authentication, user creation, viewing, updating, and dele
 #
 ## Access API Docs
 http://localhost:8082/swagger-ui.html
+#
+# HOW TO ACCESS THE API
+1 Signup
+ ![Image Alt]()
+
+
+
+
+
 
 # Authentication Endpoints
 ## Base URL: /api/v1/auth
@@ -44,12 +53,28 @@ http://localhost:8082/swagger-ui.html
 
 |     Method    |     Endpoint  |    Description                                        |
 | :-----------: | :-----------: | :---------------------------------------------------: |
-| Get           |               |  Check user and admin login status                    |
+| Get           |   Base URL    |  Check user and admin login status                    |
 | Get           |  /get/all     |  View all users and                                   |
 | Get           |  /get/{id}    |  Get user by ID                                       |
 | Put           | /update/{id}  | Update user                                           |
 | Delete        | /delete/{id}  | Delete user                                           |
 | POST          | /create       | Create a new user                                     |
+#
+# Folder Structure
+
+src/
+├── controller/
+│   ├── AuthenticationController.java
+│   └── UserController.java
+├── dto/
+│   ├── SignUpRequest.java
+│   ├── SigninRequest.java
+│   └── JwtAuthenticationResponse.java
+├── model/
+│   └── User.java
+├── service/
+│   └── AuthenticationService.java
+│   └── UserService1.java
 
 
 
