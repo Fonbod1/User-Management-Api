@@ -32,7 +32,7 @@ http://localhost:8082/swagger-ui.html
 ## Base URL: /api/v1/auth
 |---------------------------------------------------------------------------------------| 
 |     Method    |     Endpoint  |    Description                                        |
-| ______________________________________________________________________________________|
+| ______________|_______________|_______________________________________________________|
 | POST          |  /signup      |  Register a new user                                  |
 | POST          |  /signin      |  Authenticate and get JWT                             |
 | POST          |  /refresh     |  Refresh access token using refresh token             |
