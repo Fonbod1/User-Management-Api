@@ -39,7 +39,7 @@ http://localhost:8082/swagger-ui.html
 #
 <img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Signin.png?raw=true" alt="Signup Screenshot" width="1000"/>
 #
-3. Get Token: Paste the refresh token that was generated when you sign in, paste it within the "token": "paste here", this will generate a token once you click POST. Copy the token that has been generated to use it to authenticate and log-in as a user or admin
+3. Get Token: Paste the refresh token that was generated when you sign in, paste it within the "token": "paste here", this will generate a token once you click POST. Copy the token that has been generated to use it to authenticate and log in as a user or admin
 #
 <img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Token.png?raw=true" alt="Signup Screenshot" width="1000"/>
 #
