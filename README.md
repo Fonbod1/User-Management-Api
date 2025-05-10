@@ -1,2 +1,23 @@
 # User-Management-Api
-An Api to manage user role 
+## This is a Spring Boot Rest API for user registration, authentication, and user account management.
+It supports JWT-based authentication, user creation, viewing, updating, and deletion.
+#
+# Features
+#
+## The Use management API has the following features
++ User Signup and Signin
++ JWT Refresh Token
++ Token Refresh Endpoint
++ User Validation
++ Get All Users
++ Get User by ID
++ Update User and Delete User
++ Swagger API Documentation
+#
+# Tech Stack
+## The following are the software that was used to create this API
++ Java 24
++ Spring Boot
++ Intellij
++ Postgresql
++ Spring Security
