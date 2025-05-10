@@ -36,4 +36,4 @@ http://localhost:8082/swagger-ui.html
 | POST          |  /signup      |  Register a new user                                  |
 | POST          |  /signin      |  Authenticate and get JWT                             |
 | POST          |  /refresh     |  Refresh access token using refresh token             |
-|_______________|_______________|_______________________________________________________|
+
