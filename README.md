@@ -30,7 +30,8 @@ http://localhost:8082/swagger-ui.html
 #
 # HOW TO ACCESS THE API
 1 Signup
- ![Image Alt]()
+ <img src="Signup.png" alt="Signup Screenshot" width="300"/>
+
 
 
 
