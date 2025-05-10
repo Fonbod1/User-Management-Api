@@ -21,3 +21,18 @@ It supports JWT-based authentication, user creation, viewing, updating, and dele
 + Intellij
 + Postgresql
 + Spring Security
+# 
+# Setup Instructions
+## git clone https://github.com/Fonbd1/User-Management-Api
+#
+## Access API Docs
+http://localhost:8082/swagger-ui.html
+
+# Authentication Endpoints
+## Base URL: /api/v1/auth
+|     Method    |     Endpoint  |    Description                                        |
+ _______________________________________________________________________________________
+| POST          |  /signup      |  Register a new user                                  |
+| POST          |  /signin      |  Authenticate and get JWT                             |
+| POST          |  /refresh     |  Refresh access token using refresh token             |
+ ________________________________________________________________________________________
