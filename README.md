@@ -37,3 +37,26 @@ http://localhost:8082/swagger-ui.html
 | POST          |  /signin      |  Authenticate and get JWT                             |
 | POST          |  /refresh     |  Refresh access token using refresh token             |
 
+#
+# User And Admin Management Endpoints
+## Base URL: /api/v1/user  ,  /api/v1/admin
+#
+
+|     Method    |     Endpoint  |    Description                                        |
+| :-----------: | :-----------: | :---------------------------------------------------: |
+| Get           |               |  Check user and admin login status                    |
+| Get           |  /get/all     |  View all users and                                   |
+| Get           |  /get/{id}    |  Get user by ID                                       |
+| Put           | /update/{id}  | Update user                                           |
+| Delete        | /delete/{id}  | Delete user                                           |
+| POST          | /create       | Create a new user                                     |
+
+
+
+
+
+
+
+
+
+
