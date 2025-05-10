@@ -29,23 +29,23 @@ It supports JWT-based authentication, user creation, viewing, updating, and dele
 http://localhost:8082/swagger-ui.html
 #
 # HOW TO ACCESS THE API
-1 Signup
+1 Signup: Create a user using the following entity: firstname, lastname, email, password, role.
 #
-<img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Signup.png?raw=true" alt="Signup Screenshot" width="500"/>
+<img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Signup.png?raw=true" alt="Signup Screenshot" width="1000"/>
 #
 2. Sign in with a user email and password that you have created. NB: Use your own names to sign up.
   Once you sign in, a Token and a refresh token will be generated. Copy the refresh token and paste it
   Inside the token in the refresh endpoint
 #
-<img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Signin.png?raw=true" alt="Signup Screenshot" width="500"/>
+<img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Signin.png?raw=true" alt="Signup Screenshot" width="1000"/>
 #
-3. Get Token: paste the refresh token that was generated when you signed, paste it with the "token":"paste here", this generates a token once you click POST, you will copy the token that has been generated to use it to authenticate and log in as a user or admin
+3. Get Token: Paste the refresh token that was generated when you sign in, paste it within the "token": "paste here", this will generate a token once you click POST. Copy the token that has been generated to use it to authenticate and log-in as a user or admin
 #
-<img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Token.png?raw=true" alt="Signup Screenshot" width="500"/>
+<img src="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Token.png?raw=true" alt="Signup Screenshot" width="1000"/>
 #
-4. AUTHENTICATION: At your user endpoint in Postman, select the authentication submenu and paste the token that you copied from the sign-in, and click Get. This will authenticate you as a user or admin. from here, you can use the different user or admin endpoints within the API.
+4. AUTHENTICATION: At your user endpoint in Postman, select the authentication submenu, paste the token you copied from the sign-in, and click Get. This will authenticate you as a user or admin. From here, you can use the different user or admin endpoints within the API.
 #
- <imag scr ="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Authenticate%20User.png?raw=true" alt = "Authentication" width = "500">
+ <imag scr ="https://github.com/Fonbod1/User-Management-Api/blob/main/Endpoint%20photo/Authenticate%20User.png?raw=true" alt = "Authentication" width = "1000">
  #
 
 # Authentication Endpoints
